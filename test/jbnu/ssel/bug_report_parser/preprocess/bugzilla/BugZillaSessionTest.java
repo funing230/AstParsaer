@@ -34,7 +34,7 @@ public class BugZillaSessionTest {
 		
 		for(int bugid : bug_id) {
 			
-			//i++;
+			//i++;111
 			
 			Iterator<Issue> issues = bzs.newSearchBugs(bugid+"");
 			String severity=null;
